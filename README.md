@@ -7,7 +7,7 @@ Install via conda:
 git clone ...
 cd ...
 pip install -r requirements.txt
-conda install pytorch torchvision cudatoolkit=11.8 -c pytorch
+conda install pytorch torchvision cudatoolkit=11.8 -c pytorch (pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121)
 python setup.py develop
 ```
 
