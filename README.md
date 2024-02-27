@@ -11,12 +11,13 @@ conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia
 python setup.py develop
 ```
 
-# Train example
+# Training
+Some train running example:
 ``` python
 python train.py osnet_x1_0 --log_dir ./log/osnet_x1_0 --bs 16 --loss triplet --lr 0.0003 --max_epoch 60
 ```
 
-# Test example
+# Testing
 Test script calculates cmc ranks for the passed model.
 ``` python
 python test.py <model_name> <model_trt_path> --query_data_root <path-to-query-images-dir> --query_annotation_path <path-to-query-annotation-file> --gallery_data_root <path-to-gallery-images-dir> --gallery_annotation_path <path-to-gallery-annotation-file>
