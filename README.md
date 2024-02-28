@@ -2,7 +2,7 @@
 The creation of this repository was motivated by the fact that there are not many ready-made solutions for a vehicle reid task that can be quickly obtained on the web. Here you can quickly train and test models of different sizes for different needs on an own dataset(see example folder). Training is done with [torchreid library](https://github.com/KaiyangZhou/deep-person-reid), model testing considers [CMC top-k accuracy](https://cysu.github.io/open-reid/notes/evaluation_metrics.html).
 
 # TODO
-* Add download links for trained models
+* Add download links for the trained models
 
 # Installation
 
