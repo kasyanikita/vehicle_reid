@@ -64,6 +64,8 @@ Models were taken from [torchreid model zoo](https://kaiyangzhou.github.io/deep-
 | osnet_ain_x0_5   | 0.64            | 0.36   | 0.639                     | 0.642                     | 0.719              | 0.722             |
 | osnet_ain_x0_25  | 0.2             | 0.11   | 0.570                     | 0.566                     | 0.657              | 0.654             |
 
+In order reproduce these trains run train.py from example folder. The VRIC dataset should be located at the path data/VRIC.
+
 # Visualize train 📈
 ``` shell
 tensorboard --logdir=<your_log_path>
